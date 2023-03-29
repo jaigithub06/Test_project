@@ -1,7 +1,7 @@
-resource "aws_s3_bucket" "first_bucket" {
-bucket = "jai-first-bucket"
+resource "aws_s3_bucket" "first_project" {
+bucket = "first-projectc-bucket"
 }
- resource "aws_vpc" "my_vpc" {
+ resource "aws_vpc" "strapi_vpc" {
  cidr_block = "10.0.0.0/16"
  }
 
